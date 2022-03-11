@@ -1,3 +1,4 @@
+//Lab 8
 package com.example.simpleparadox.listycity;
 
 import android.content.Context;
@@ -59,5 +60,10 @@ public class CustomList extends ArrayAdapter<City> {
     public void addCity(City city){
         cities.add(city);
         return;
+    }
+
+    public boolean hasCity(City city) {
+
+        return true;
     }
 }
