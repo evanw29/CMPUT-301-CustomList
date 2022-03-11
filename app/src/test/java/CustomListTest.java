@@ -32,9 +32,10 @@ public class CustomListTest {
     @Test
     public void hasCityTest(){
 
-        list.addCity(new City("Edmonton", "AB"));
-
         City edm = new City("Edmonton", "AB");
+
+        list.addCity(edm);
+
         City cal = new City("Calgary", "AB");
 
         assertTrue(list.hasCity(edm));
